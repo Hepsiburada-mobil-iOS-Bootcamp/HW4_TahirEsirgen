@@ -10,7 +10,6 @@
 		91EB5FD127189FB50066B1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5FD027189FB50066B1D4 /* AppDelegate.swift */; };
 		91EB5FD327189FB50066B1D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5FD227189FB50066B1D4 /* SceneDelegate.swift */; };
 		91EB5FD527189FB50066B1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5FD427189FB50066B1D4 /* ViewController.swift */; };
-		91EB5FD827189FB50066B1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EB5FD627189FB50066B1D4 /* Main.storyboard */; };
 		91EB5FDA27189FBB0066B1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91EB5FD927189FBB0066B1D4 /* Assets.xcassets */; };
 		91EB5FDD27189FBB0066B1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91EB5FDB27189FBB0066B1D4 /* LaunchScreen.storyboard */; };
 		91EB5FE827189FBB0066B1D4 /* Week_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5FE727189FBB0066B1D4 /* Week_4Tests.swift */; };
@@ -30,6 +29,32 @@
 		91EB601D2718B0130066B1D4 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB601A2718B0130066B1D4 /* MainViewModel.swift */; };
 		91EB60212718B0760066B1D4 /* ApplicationGeneralInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB601F2718B0760066B1D4 /* ApplicationGeneralInfoManager.swift */; };
 		91EB60222718B0760066B1D4 /* ApplicationGeneralInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60202718B0760066B1D4 /* ApplicationGeneralInfoProtocol.swift */; };
+		91EB60282719AD9A0066B1D4 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60272719AD9A0066B1D4 /* BaseRequest.swift */; };
+		91EB602A2719ADED0066B1D4 /* TeamsApiServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60292719ADED0066B1D4 /* TeamsApiServiceProvider.swift */; };
+		91EB602C2719B3E30066B1D4 /* TeamsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB602B2719B3E30066B1D4 /* TeamsResponse.swift */; };
+		91EB602F2719CD6E0066B1D4 /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 91EB602E2719CD6E0066B1D4 /* DefaultNetworkOperationPackage */; };
+		91EB60322719CFAB0066B1D4 /* HeaderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60312719CFAB0066B1D4 /* HeaderProvider.swift */; };
+		91EB60362719D63C0066B1D4 /* TeamListOperationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60352719D63C0066B1D4 /* TeamListOperationProtocol.swift */; };
+		91EB60382719D6560066B1D4 /* TeamListOperationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60372719D6560066B1D4 /* TeamListOperationManager.swift */; };
+		91EB603B2719D74A0066B1D4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 91EB603A2719D74A0066B1D4 /* RxSwift */; };
+		91EB603F2719E6E20066B1D4 /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB603E2719E6E20066B1D4 /* TeamListViewController.swift */; };
+		91EB60412719E6FE0066B1D4 /* TeamListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60402719E6FE0066B1D4 /* TeamListViewBuilder.swift */; };
+		91EB60432719E7170066B1D4 /* TeamListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60422719E7170066B1D4 /* TeamListViewModel.swift */; };
+		91EB60452719E7330066B1D4 /* TeamListViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60442719E7330066B1D4 /* TeamListViewState.swift */; };
+		91EB60472719E7620066B1D4 /* TeamListDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60462719E7620066B1D4 /* TeamListDataFormatter.swift */; };
+		91EB60492719E77E0066B1D4 /* TeamListDataFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60482719E77E0066B1D4 /* TeamListDataFormatterProtocol.swift */; };
+		91EB604D2719E8A60066B1D4 /* ItemTableViewCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB604C2719E8A60066B1D4 /* ItemTableViewCellData.swift */; };
+		91EB604F2719E8CA0066B1D4 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB604E2719E8CA0066B1D4 /* ItemTableViewCell.swift */; };
+		91EB60532719EA020066B1D4 /* LabelPackComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60522719EA020066B1D4 /* LabelPackComponentData.swift */; };
+		91EB60552719EA180066B1D4 /* LabelPackComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60542719EA180066B1D4 /* LabelPackComponent.swift */; };
+		91EB60572719EA470066B1D4 /* LabelDistiributionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60562719EA470066B1D4 /* LabelDistiributionData.swift */; };
+		91EB605C2719EBA30066B1D4 /* CustomImageViewComponentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60582719EBA20066B1D4 /* CustomImageViewComponentContainer.swift */; };
+		91EB605D2719EBA30066B1D4 /* CustomImageLoadingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60592719EBA20066B1D4 /* CustomImageLoadingType.swift */; };
+		91EB605E2719EBA30066B1D4 /* CustomImageViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB605A2719EBA20066B1D4 /* CustomImageViewComponent.swift */; };
+		91EB605F2719EBA30066B1D4 /* CustomImageViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB605B2719EBA30066B1D4 /* CustomImageViewComponentData.swift */; };
+		91EB60622719F8100066B1D4 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60612719F8100066B1D4 /* ImageCacheManager.swift */; };
+		91EB6066271A081B0066B1D4 /* ItemListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB6064271A081A0066B1D4 /* ItemListProtocol.swift */; };
+		91EB6067271A081B0066B1D4 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB6065271A081B0066B1D4 /* ItemListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +79,6 @@
 		91EB5FD027189FB50066B1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91EB5FD227189FB50066B1D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		91EB5FD427189FB50066B1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		91EB5FD727189FB50066B1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91EB5FD927189FBB0066B1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91EB5FDC27189FBB0066B1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91EB5FDE27189FBB0066B1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +101,30 @@
 		91EB601A2718B0130066B1D4 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		91EB601F2718B0760066B1D4 /* ApplicationGeneralInfoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationGeneralInfoManager.swift; sourceTree = "<group>"; };
 		91EB60202718B0760066B1D4 /* ApplicationGeneralInfoProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationGeneralInfoProtocol.swift; sourceTree = "<group>"; };
+		91EB60272719AD9A0066B1D4 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		91EB60292719ADED0066B1D4 /* TeamsApiServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsApiServiceProvider.swift; sourceTree = "<group>"; };
+		91EB602B2719B3E30066B1D4 /* TeamsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsResponse.swift; sourceTree = "<group>"; };
+		91EB60312719CFAB0066B1D4 /* HeaderProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderProvider.swift; sourceTree = "<group>"; };
+		91EB60352719D63C0066B1D4 /* TeamListOperationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListOperationProtocol.swift; sourceTree = "<group>"; };
+		91EB60372719D6560066B1D4 /* TeamListOperationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListOperationManager.swift; sourceTree = "<group>"; };
+		91EB603E2719E6E20066B1D4 /* TeamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
+		91EB60402719E6FE0066B1D4 /* TeamListViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewBuilder.swift; sourceTree = "<group>"; };
+		91EB60422719E7170066B1D4 /* TeamListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewModel.swift; sourceTree = "<group>"; };
+		91EB60442719E7330066B1D4 /* TeamListViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewState.swift; sourceTree = "<group>"; };
+		91EB60462719E7620066B1D4 /* TeamListDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListDataFormatter.swift; sourceTree = "<group>"; };
+		91EB60482719E77E0066B1D4 /* TeamListDataFormatterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListDataFormatterProtocol.swift; sourceTree = "<group>"; };
+		91EB604C2719E8A60066B1D4 /* ItemTableViewCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCellData.swift; sourceTree = "<group>"; };
+		91EB604E2719E8CA0066B1D4 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		91EB60522719EA020066B1D4 /* LabelPackComponentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponentData.swift; sourceTree = "<group>"; };
+		91EB60542719EA180066B1D4 /* LabelPackComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelPackComponent.swift; sourceTree = "<group>"; };
+		91EB60562719EA470066B1D4 /* LabelDistiributionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelDistiributionData.swift; sourceTree = "<group>"; };
+		91EB60582719EBA20066B1D4 /* CustomImageViewComponentContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponentContainer.swift; sourceTree = "<group>"; };
+		91EB60592719EBA20066B1D4 /* CustomImageLoadingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageLoadingType.swift; sourceTree = "<group>"; };
+		91EB605A2719EBA20066B1D4 /* CustomImageViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponent.swift; sourceTree = "<group>"; };
+		91EB605B2719EBA30066B1D4 /* CustomImageViewComponentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageViewComponentData.swift; sourceTree = "<group>"; };
+		91EB60612719F8100066B1D4 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		91EB6064271A081A0066B1D4 /* ItemListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListProtocol.swift; sourceTree = "<group>"; };
+		91EB6065271A081B0066B1D4 /* ItemListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +132,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91EB603B2719D74A0066B1D4 /* RxSwift in Frameworks */,
+				91EB602F2719CD6E0066B1D4 /* DefaultNetworkOperationPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +177,10 @@
 		91EB5FCF27189FB40066B1D4 /* Week_4 */ = {
 			isa = PBXGroup;
 			children = (
+				91EB604A2719E8560066B1D4 /* Components */,
+				91EB603C2719E6AD0066B1D4 /* Modules */,
+				91EB60302719CF760066B1D4 /* Manager */,
+				91EB60262719AD870066B1D4 /* Model */,
 				91EB601E2718B04E0066B1D4 /* UserDefaultsHelperManagers */,
 				91EB60172718AFE70066B1D4 /* Main */,
 				91EB60142718AF400066B1D4 /* AssetHelpers */,
@@ -135,7 +189,6 @@
 				91EB5FD027189FB50066B1D4 /* AppDelegate.swift */,
 				91EB5FD227189FB50066B1D4 /* SceneDelegate.swift */,
 				91EB5FD427189FB50066B1D4 /* ViewController.swift */,
-				91EB5FD627189FB50066B1D4 /* Main.storyboard */,
 				91EB5FD927189FBB0066B1D4 /* Assets.xcassets */,
 				91EB5FDB27189FBB0066B1D4 /* LaunchScreen.storyboard */,
 				91EB5FDE27189FBB0066B1D4 /* Info.plist */,
@@ -209,6 +262,122 @@
 			path = UserDefaultsHelperManagers;
 			sourceTree = "<group>";
 		};
+		91EB60262719AD870066B1D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91EB60272719AD9A0066B1D4 /* BaseRequest.swift */,
+				91EB60292719ADED0066B1D4 /* TeamsApiServiceProvider.swift */,
+				91EB602B2719B3E30066B1D4 /* TeamsResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91EB60302719CF760066B1D4 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				91EB60602719F7D80066B1D4 /* CacheManagers */,
+				91EB60342719D6070066B1D4 /* TeamListOperationManager */,
+				91EB60332719D5F70066B1D4 /* HeaderProvider */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		91EB60332719D5F70066B1D4 /* HeaderProvider */ = {
+			isa = PBXGroup;
+			children = (
+				91EB60312719CFAB0066B1D4 /* HeaderProvider.swift */,
+			);
+			path = HeaderProvider;
+			sourceTree = "<group>";
+		};
+		91EB60342719D6070066B1D4 /* TeamListOperationManager */ = {
+			isa = PBXGroup;
+			children = (
+				91EB60352719D63C0066B1D4 /* TeamListOperationProtocol.swift */,
+				91EB60372719D6560066B1D4 /* TeamListOperationManager.swift */,
+			);
+			path = TeamListOperationManager;
+			sourceTree = "<group>";
+		};
+		91EB603C2719E6AD0066B1D4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				91EB603D2719E6B80066B1D4 /* TeamListModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		91EB603D2719E6B80066B1D4 /* TeamListModule */ = {
+			isa = PBXGroup;
+			children = (
+				91EB603E2719E6E20066B1D4 /* TeamListViewController.swift */,
+				91EB60402719E6FE0066B1D4 /* TeamListViewBuilder.swift */,
+				91EB60422719E7170066B1D4 /* TeamListViewModel.swift */,
+				91EB60442719E7330066B1D4 /* TeamListViewState.swift */,
+				91EB60462719E7620066B1D4 /* TeamListDataFormatter.swift */,
+				91EB60482719E77E0066B1D4 /* TeamListDataFormatterProtocol.swift */,
+			);
+			path = TeamListModule;
+			sourceTree = "<group>";
+		};
+		91EB604A2719E8560066B1D4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				91EB6063271A07FE0066B1D4 /* ItemListViewComponents */,
+				91EB60512719E9BB0066B1D4 /* LabelPackComponent */,
+				91EB60502719E9AC0066B1D4 /* CustomImageViewComponent */,
+				91EB604B2719E8760066B1D4 /* ItemComponents */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		91EB604B2719E8760066B1D4 /* ItemComponents */ = {
+			isa = PBXGroup;
+			children = (
+				91EB604E2719E8CA0066B1D4 /* ItemTableViewCell.swift */,
+				91EB604C2719E8A60066B1D4 /* ItemTableViewCellData.swift */,
+			);
+			path = ItemComponents;
+			sourceTree = "<group>";
+		};
+		91EB60502719E9AC0066B1D4 /* CustomImageViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				91EB60592719EBA20066B1D4 /* CustomImageLoadingType.swift */,
+				91EB605A2719EBA20066B1D4 /* CustomImageViewComponent.swift */,
+				91EB60582719EBA20066B1D4 /* CustomImageViewComponentContainer.swift */,
+				91EB605B2719EBA30066B1D4 /* CustomImageViewComponentData.swift */,
+			);
+			path = CustomImageViewComponent;
+			sourceTree = "<group>";
+		};
+		91EB60512719E9BB0066B1D4 /* LabelPackComponent */ = {
+			isa = PBXGroup;
+			children = (
+				91EB60522719EA020066B1D4 /* LabelPackComponentData.swift */,
+				91EB60542719EA180066B1D4 /* LabelPackComponent.swift */,
+				91EB60562719EA470066B1D4 /* LabelDistiributionData.swift */,
+			);
+			path = LabelPackComponent;
+			sourceTree = "<group>";
+		};
+		91EB60602719F7D80066B1D4 /* CacheManagers */ = {
+			isa = PBXGroup;
+			children = (
+				91EB60612719F8100066B1D4 /* ImageCacheManager.swift */,
+			);
+			path = CacheManagers;
+			sourceTree = "<group>";
+		};
+		91EB6063271A07FE0066B1D4 /* ItemListViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				91EB6064271A081A0066B1D4 /* ItemListProtocol.swift */,
+				91EB6065271A081B0066B1D4 /* ItemListView.swift */,
+			);
+			path = ItemListViewComponents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,6 +394,10 @@
 			dependencies = (
 			);
 			name = Week_4;
+			packageProductDependencies = (
+				91EB602E2719CD6E0066B1D4 /* DefaultNetworkOperationPackage */,
+				91EB603A2719D74A0066B1D4 /* RxSwift */,
+			);
 			productName = Week_4;
 			productReference = 91EB5FCD27189FB40066B1D4 /* Week_4.app */;
 			productType = "com.apple.product-type.application";
@@ -297,6 +470,10 @@
 				Base,
 			);
 			mainGroup = 91EB5FC427189FB40066B1D4;
+			packageReferences = (
+				91EB602D2719CD6E0066B1D4 /* XCRemoteSwiftPackageReference "DefaultNetworkPackage" */,
+				91EB60392719D74A0066B1D4 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 91EB5FCE27189FB40066B1D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -315,7 +492,6 @@
 			files = (
 				91EB5FDD27189FBB0066B1D4 /* LaunchScreen.storyboard in Resources */,
 				91EB5FDA27189FBB0066B1D4 /* Assets.xcassets in Resources */,
-				91EB5FD827189FB50066B1D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,22 +516,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91EB60572719EA470066B1D4 /* LabelDistiributionData.swift in Sources */,
 				91EB60042718A2FF0066B1D4 /* BaseViewController.swift in Sources */,
+				91EB60492719E77E0066B1D4 /* TeamListDataFormatterProtocol.swift in Sources */,
 				91EB5FD527189FB50066B1D4 /* ViewController.swift in Sources */,
+				91EB60532719EA020066B1D4 /* LabelPackComponentData.swift in Sources */,
+				91EB60622719F8100066B1D4 /* ImageCacheManager.swift in Sources */,
+				91EB6066271A081B0066B1D4 /* ItemListProtocol.swift in Sources */,
 				91EB60022718A2DB0066B1D4 /* GenericValueProtocol.swift in Sources */,
+				91EB602C2719B3E30066B1D4 /* TeamsResponse.swift in Sources */,
+				91EB60362719D63C0066B1D4 /* TeamListOperationProtocol.swift in Sources */,
 				91EB5FD127189FB50066B1D4 /* AppDelegate.swift in Sources */,
 				91EB600C2718AB6A0066B1D4 /* BaseTableViewCell.swift in Sources */,
 				91EB601D2718B0130066B1D4 /* MainViewModel.swift in Sources */,
 				91EB60132718AE240066B1D4 /* MainTabBarBuider.swift in Sources */,
+				91EB604D2719E8A60066B1D4 /* ItemTableViewCellData.swift in Sources */,
+				91EB605D2719EBA30066B1D4 /* CustomImageLoadingType.swift in Sources */,
 				91EB601B2718B0130066B1D4 /* MainViewBuilder.swift in Sources */,
+				91EB60282719AD9A0066B1D4 /* BaseRequest.swift in Sources */,
 				91EB601C2718B0130066B1D4 /* MainViewController.swift in Sources */,
 				91EB60222718B0760066B1D4 /* ApplicationGeneralInfoProtocol.swift in Sources */,
+				91EB60432719E7170066B1D4 /* TeamListViewModel.swift in Sources */,
 				91EB60112718ADF70066B1D4 /* MainTabBarViewController.swift in Sources */,
+				91EB60472719E7620066B1D4 /* TeamListDataFormatter.swift in Sources */,
+				91EB60322719CFAB0066B1D4 /* HeaderProvider.swift in Sources */,
 				91EB60162718AF590066B1D4 /* TabBarImages.swift in Sources */,
+				91EB605E2719EBA30066B1D4 /* CustomImageViewComponent.swift in Sources */,
+				91EB60452719E7330066B1D4 /* TeamListViewState.swift in Sources */,
 				91EB60082718A36A0066B1D4 /* BaseView.swift in Sources */,
+				91EB603F2719E6E20066B1D4 /* TeamListViewController.swift in Sources */,
+				91EB60412719E6FE0066B1D4 /* TeamListViewBuilder.swift in Sources */,
+				91EB6067271A081B0066B1D4 /* ItemListView.swift in Sources */,
 				91EB600A2718AB250066B1D4 /* GenericDataProtocol.swift in Sources */,
+				91EB60382719D6560066B1D4 /* TeamListOperationManager.swift in Sources */,
+				91EB60552719EA180066B1D4 /* LabelPackComponent.swift in Sources */,
+				91EB605F2719EBA30066B1D4 /* CustomImageViewComponentData.swift in Sources */,
 				91EB5FD327189FB50066B1D4 /* SceneDelegate.swift in Sources */,
 				91EB60062718A3240066B1D4 /* GenericBaseView.swift in Sources */,
+				91EB602A2719ADED0066B1D4 /* TeamsApiServiceProvider.swift in Sources */,
+				91EB605C2719EBA30066B1D4 /* CustomImageViewComponentContainer.swift in Sources */,
+				91EB604F2719E8CA0066B1D4 /* ItemTableViewCell.swift in Sources */,
 				91EB60212718B0760066B1D4 /* ApplicationGeneralInfoManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,14 +593,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		91EB5FD627189FB50066B1D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91EB5FD727189FB50066B1D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		91EB5FDB27189FBB0066B1D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -539,7 +731,6 @@
 				INFOPLIST_FILE = Week_4/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -566,7 +757,6 @@
 				INFOPLIST_FILE = Week_4/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -714,6 +904,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		91EB602D2719CD6E0066B1D4 /* XCRemoteSwiftPackageReference "DefaultNetworkPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tesirgen/DefaultNetworkPackage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		91EB60392719D74A0066B1D4 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		91EB602E2719CD6E0066B1D4 /* DefaultNetworkOperationPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91EB602D2719CD6E0066B1D4 /* XCRemoteSwiftPackageReference "DefaultNetworkPackage" */;
+			productName = DefaultNetworkOperationPackage;
+		};
+		91EB603A2719D74A0066B1D4 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91EB60392719D74A0066B1D4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 91EB5FC527189FB40066B1D4 /* Project object */;
 }

@@ -23,14 +23,6 @@ class TeamListOperationsManager: TeamListOperationProtocol {
     // MARK: - Public Methods
     func getTeamListData() {
         fireApiCall(with: apiCallHandler)
-        fireApiCall { result in
-            switch result {
-            case .failure(let error):
-                print("error : \(error)")
-            case .success(let data):
-                print("data : \(data)")
-            }
-        }
     }
     
     func subscribeDataPublisher(with completion: @escaping TeamListResultBlock) -> Disposable {

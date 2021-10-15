@@ -12,8 +12,8 @@ class HeaderProvider: HeaderProviderProtocol {
     
     func getHeaders() -> HTTPHeaders {
         var headers = HTTPHeaders()
-        headers.add(HTTPHeader(name: "x-rapidapi-host", value: "api-football-v1.p.rapidapi.com"))
-        headers.add(HTTPHeader(name: "x-rapidapi-key", value: "ab6ffac239msh45cfae4d07ed4c9p1f9227jsne847fd681516"))
+        //Do you want to Start the project please tell me.Because header is not complete.
+        
         headers.add(HTTPHeader(name: "Content-Type", value: "application/json"))
         return headers
     }

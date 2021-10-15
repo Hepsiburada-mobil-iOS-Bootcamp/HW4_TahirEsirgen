@@ -65,6 +65,7 @@ class MainViewController: BaseViewController<MainViewModel> {
     
     @objc func testButtonAction(_ sender: UIButton) {
         
+        fireCharacterListView()
         
 //        let viewController = TestViewController()
 //        viewController.title = "TEST"
@@ -75,6 +76,13 @@ class MainViewController: BaseViewController<MainViewModel> {
 //        newNavigationController.navigationBar.tintColor = .green
 //        self.present(newNavigationController, animated: true, completion: nil)
     }
+    
+    private func fireCharacterListView() {
+        let characterListView = TeamListViewBuilder.build()
+        self.navigationController?.pushViewController(characterListView, animated: true)
+    }
+    
+    
     
     
     

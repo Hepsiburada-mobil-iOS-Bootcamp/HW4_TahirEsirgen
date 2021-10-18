@@ -15,4 +15,7 @@ class TeamsApiServiceProvider: ApiServiceProvider<BaseRequest> {
     init(headers:HeaderProviderProtocol) {
         super.init(method: .get, baseUrl: Self.url,headerProvider: headers)
     }
+    init(headers:HeaderProviderProtocol,data: BaseRequest) {
+        super.init(method: .get, baseUrl: Self.url,  data: data, headerProvider: headers)
+    }
 }

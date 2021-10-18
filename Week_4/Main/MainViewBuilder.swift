@@ -14,9 +14,10 @@ class MainViewBuilder {
         let viewModel = MainViewModel(applicationInfoManager: ApplicationGeneralInfoManager.shared)
         let viewController = MainViewController(viewModel: viewModel)
         let navigationViewController = UINavigationController(rootViewController: viewController)
-        viewController.title = "Main"
+        viewController.title = "Team List"
         viewController.tabBarItem.image = TabBarImages.home.value
         viewController.tabBarItem.selectedImage = TabBarImages.homeSelected.value
+        navigationViewController.navigationBar.tintColor = .cyan
         viewController.navigationController?.setNavigationBarHidden(true, animated: false)
         
         let appearance = UINavigationBarAppearance()

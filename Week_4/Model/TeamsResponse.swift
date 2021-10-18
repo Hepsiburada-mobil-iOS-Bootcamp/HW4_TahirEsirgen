@@ -16,6 +16,7 @@ public struct TeamsResponse: Codable {
 // MARK: - Response
 public struct ResponseData: Codable {
     let team: Team
+    let venue: Venue
 }
 
 // MARK: - Team
@@ -24,6 +25,11 @@ public struct Team: Codable {
     let logo: String
     let name: String
 }
-
-
+ // MARK: - Venue
+public struct Venue: Codable {
+    let id: Int?
+    let name, address, city: String?
+    let capacity: Int?
+    let image: String?
+}
 

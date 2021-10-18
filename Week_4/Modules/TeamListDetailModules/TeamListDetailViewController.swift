@@ -1,29 +1,18 @@
 //
-//  TeamListViewController.swift
+//  TeamListDetailViewController.swift
 //  Week_4
 //
-//  Created by Tahir Esirgen on 15.10.2021.
+//  Created by Tahir Esirgen on 17.10.2021.
 //
 
 import UIKit
-extension Selector {
-    static let testButtonTapped2 = #selector(TeamListViewController.testButtonAction2)
-}
-class TeamListViewController: BaseViewController<TeamListViewModel> {
+
+class TeamListDetailViewController: BaseViewController<TeamListDetailViewModel> {
     
     deinit {
         print("DEINIT TeamListViewController")
     }
-    private lazy var test: UIButton = {
-        let temp = UIButton(type: .system)
-        temp.translatesAutoresizingMaskIntoConstraints = false
-        temp.addTarget(self, action: .testButtonTapped2, for: .touchUpInside)
-        temp.setTitle("Details..", for: .normal)
-        temp.titleLabel?.font = UIFont(name: "Arial", size: 20)
-        temp.setTitleColor(.black, for: .normal)
-        temp.frame.size = CGSize(width: 20.0, height: 20.0)
-        return temp
-    }()
+    
     //private var mainComponent: mainComponent!
     private var mainComponent: ItemListView!
 
@@ -41,9 +30,7 @@ class TeamListViewController: BaseViewController<TeamListViewModel> {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: test)
         self.navigationController?.setNavigationBarHidden(false, animated: true)
-        
     }
     
     private func addmainComponent() {
@@ -61,6 +48,8 @@ class TeamListViewController: BaseViewController<TeamListViewModel> {
             mainComponent.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             mainComponent.topAnchor.constraint(equalTo: view.topAnchor),
             mainComponent.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+            
+            
         ])
     }
     
@@ -79,13 +68,5 @@ class TeamListViewController: BaseViewController<TeamListViewModel> {
             }
         }
     }
-    @objc func testButtonAction2(_ sender: UIButton) {
-        fireCharacterListView()
-    }
     
-    private func fireCharacterListView() {
-        let characterListView = TeamListDetailViewBuilder.build()
-        self.navigationController?.pushViewController(characterListView, animated: true)
-    }
 }
-

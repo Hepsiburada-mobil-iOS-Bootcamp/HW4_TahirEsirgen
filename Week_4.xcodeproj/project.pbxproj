@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91819DB4271C8E5F0070E8EE /* TeamListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91819DB3271C8E5F0070E8EE /* TeamListDetailViewController.swift */; };
+		91819DB6271C8E9B0070E8EE /* TeamListDetailViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91819DB5271C8E9B0070E8EE /* TeamListDetailViewBuilder.swift */; };
+		91819DB8271C8EBB0070E8EE /* TeamListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91819DB7271C8EBB0070E8EE /* TeamListDetailViewModel.swift */; };
+		91819DBA271C8EE50070E8EE /* TeamListDetailViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91819DB9271C8EE50070E8EE /* TeamListDetailViewState.swift */; };
+		91819DBC271C8F4A0070E8EE /* TeamListDetailDataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91819DBB271C8F4A0070E8EE /* TeamListDetailDataFormatter.swift */; };
+		91819DBE271C8F5A0070E8EE /* TeamListDetailDataFormatterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91819DBD271C8F5A0070E8EE /* TeamListDetailDataFormatterProtocol.swift */; };
+		91819DC5271D62C70070E8EE /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 91819DC4271D62C70070E8EE /* DefaultNetworkOperationPackage */; };
 		91EB5FD127189FB50066B1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5FD027189FB50066B1D4 /* AppDelegate.swift */; };
 		91EB5FD327189FB50066B1D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5FD227189FB50066B1D4 /* SceneDelegate.swift */; };
 		91EB5FD527189FB50066B1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB5FD427189FB50066B1D4 /* ViewController.swift */; };
@@ -32,7 +39,6 @@
 		91EB60282719AD9A0066B1D4 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60272719AD9A0066B1D4 /* BaseRequest.swift */; };
 		91EB602A2719ADED0066B1D4 /* TeamsApiServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60292719ADED0066B1D4 /* TeamsApiServiceProvider.swift */; };
 		91EB602C2719B3E30066B1D4 /* TeamsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB602B2719B3E30066B1D4 /* TeamsResponse.swift */; };
-		91EB602F2719CD6E0066B1D4 /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 91EB602E2719CD6E0066B1D4 /* DefaultNetworkOperationPackage */; };
 		91EB60322719CFAB0066B1D4 /* HeaderProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60312719CFAB0066B1D4 /* HeaderProvider.swift */; };
 		91EB60362719D63C0066B1D4 /* TeamListOperationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60352719D63C0066B1D4 /* TeamListOperationProtocol.swift */; };
 		91EB60382719D6560066B1D4 /* TeamListOperationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EB60372719D6560066B1D4 /* TeamListOperationManager.swift */; };
@@ -75,6 +81,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91819DB3271C8E5F0070E8EE /* TeamListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListDetailViewController.swift; sourceTree = "<group>"; };
+		91819DB5271C8E9B0070E8EE /* TeamListDetailViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListDetailViewBuilder.swift; sourceTree = "<group>"; };
+		91819DB7271C8EBB0070E8EE /* TeamListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListDetailViewModel.swift; sourceTree = "<group>"; };
+		91819DB9271C8EE50070E8EE /* TeamListDetailViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListDetailViewState.swift; sourceTree = "<group>"; };
+		91819DBB271C8F4A0070E8EE /* TeamListDetailDataFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListDetailDataFormatter.swift; sourceTree = "<group>"; };
+		91819DBD271C8F5A0070E8EE /* TeamListDetailDataFormatterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListDetailDataFormatterProtocol.swift; sourceTree = "<group>"; };
 		91EB5FCD27189FB40066B1D4 /* Week_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91EB5FD027189FB50066B1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91EB5FD227189FB50066B1D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,8 +144,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91819DC5271D62C70070E8EE /* DefaultNetworkOperationPackage in Frameworks */,
 				91EB603B2719D74A0066B1D4 /* RxSwift in Frameworks */,
-				91EB602F2719CD6E0066B1D4 /* DefaultNetworkOperationPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +166,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91819DB2271C8E290070E8EE /* TeamListDetailModules */ = {
+			isa = PBXGroup;
+			children = (
+				91819DB3271C8E5F0070E8EE /* TeamListDetailViewController.swift */,
+				91819DB5271C8E9B0070E8EE /* TeamListDetailViewBuilder.swift */,
+				91819DB7271C8EBB0070E8EE /* TeamListDetailViewModel.swift */,
+				91819DB9271C8EE50070E8EE /* TeamListDetailViewState.swift */,
+				91819DBB271C8F4A0070E8EE /* TeamListDetailDataFormatter.swift */,
+				91819DBD271C8F5A0070E8EE /* TeamListDetailDataFormatterProtocol.swift */,
+			);
+			path = TeamListDetailModules;
+			sourceTree = "<group>";
+		};
 		91EB5FC427189FB40066B1D4 = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +327,7 @@
 		91EB603C2719E6AD0066B1D4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				91819DB2271C8E290070E8EE /* TeamListDetailModules */,
 				91EB603D2719E6B80066B1D4 /* TeamListModule */,
 			);
 			path = Modules;
@@ -395,8 +421,8 @@
 			);
 			name = Week_4;
 			packageProductDependencies = (
-				91EB602E2719CD6E0066B1D4 /* DefaultNetworkOperationPackage */,
 				91EB603A2719D74A0066B1D4 /* RxSwift */,
+				91819DC4271D62C70070E8EE /* DefaultNetworkOperationPackage */,
 			);
 			productName = Week_4;
 			productReference = 91EB5FCD27189FB40066B1D4 /* Week_4.app */;
@@ -471,8 +497,8 @@
 			);
 			mainGroup = 91EB5FC427189FB40066B1D4;
 			packageReferences = (
-				91EB602D2719CD6E0066B1D4 /* XCRemoteSwiftPackageReference "DefaultNetworkPackage" */,
 				91EB60392719D74A0066B1D4 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				91819DC3271D62C70070E8EE /* XCRemoteSwiftPackageReference "DefaultNetworkPackage" */,
 			);
 			productRefGroup = 91EB5FCE27189FB40066B1D4 /* Products */;
 			projectDirPath = "";
@@ -523,13 +549,17 @@
 				91EB60532719EA020066B1D4 /* LabelPackComponentData.swift in Sources */,
 				91EB60622719F8100066B1D4 /* ImageCacheManager.swift in Sources */,
 				91EB6066271A081B0066B1D4 /* ItemListProtocol.swift in Sources */,
+				91819DB6271C8E9B0070E8EE /* TeamListDetailViewBuilder.swift in Sources */,
 				91EB60022718A2DB0066B1D4 /* GenericValueProtocol.swift in Sources */,
+				91819DB8271C8EBB0070E8EE /* TeamListDetailViewModel.swift in Sources */,
 				91EB602C2719B3E30066B1D4 /* TeamsResponse.swift in Sources */,
 				91EB60362719D63C0066B1D4 /* TeamListOperationProtocol.swift in Sources */,
 				91EB5FD127189FB50066B1D4 /* AppDelegate.swift in Sources */,
 				91EB600C2718AB6A0066B1D4 /* BaseTableViewCell.swift in Sources */,
 				91EB601D2718B0130066B1D4 /* MainViewModel.swift in Sources */,
+				91819DBA271C8EE50070E8EE /* TeamListDetailViewState.swift in Sources */,
 				91EB60132718AE240066B1D4 /* MainTabBarBuider.swift in Sources */,
+				91819DBE271C8F5A0070E8EE /* TeamListDetailDataFormatterProtocol.swift in Sources */,
 				91EB604D2719E8A60066B1D4 /* ItemTableViewCellData.swift in Sources */,
 				91EB605D2719EBA30066B1D4 /* CustomImageLoadingType.swift in Sources */,
 				91EB601B2718B0130066B1D4 /* MainViewBuilder.swift in Sources */,
@@ -554,8 +584,10 @@
 				91EB5FD327189FB50066B1D4 /* SceneDelegate.swift in Sources */,
 				91EB60062718A3240066B1D4 /* GenericBaseView.swift in Sources */,
 				91EB602A2719ADED0066B1D4 /* TeamsApiServiceProvider.swift in Sources */,
+				91819DB4271C8E5F0070E8EE /* TeamListDetailViewController.swift in Sources */,
 				91EB605C2719EBA30066B1D4 /* CustomImageViewComponentContainer.swift in Sources */,
 				91EB604F2719E8CA0066B1D4 /* ItemTableViewCell.swift in Sources */,
+				91819DBC271C8F4A0070E8EE /* TeamListDetailDataFormatter.swift in Sources */,
 				91EB60212718B0760066B1D4 /* ApplicationGeneralInfoManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -906,7 +938,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		91EB602D2719CD6E0066B1D4 /* XCRemoteSwiftPackageReference "DefaultNetworkPackage" */ = {
+		91819DC3271D62C70070E8EE /* XCRemoteSwiftPackageReference "DefaultNetworkPackage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/tesirgen/DefaultNetworkPackage";
 			requirement = {
@@ -925,9 +957,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		91EB602E2719CD6E0066B1D4 /* DefaultNetworkOperationPackage */ = {
+		91819DC4271D62C70070E8EE /* DefaultNetworkOperationPackage */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 91EB602D2719CD6E0066B1D4 /* XCRemoteSwiftPackageReference "DefaultNetworkPackage" */;
+			package = 91819DC3271D62C70070E8EE /* XCRemoteSwiftPackageReference "DefaultNetworkPackage" */;
 			productName = DefaultNetworkOperationPackage;
 		};
 		91EB603A2719D74A0066B1D4 /* RxSwift */ = {
